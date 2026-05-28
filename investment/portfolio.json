@@ -1,0 +1,47 @@
+{
+  "start_date": "2026-05-28",
+  "initial_capital": 10000,
+  "cash": 4005.47,
+  "positions": [
+    {
+      "code": "588000",
+      "name": "科创50ETF华夏",
+      "category": "AI/科技",
+      "shares": 1666,
+      "cost_price": 1.80,
+      "last_price": 1.80,
+      "market_value": 2998.80
+    },
+    {
+      "code": "159625",
+      "name": "绿色电力ETF嘉实",
+      "category": "绿电",
+      "shares": 2941,
+      "cost_price": 0.85,
+      "last_price": 0.85,
+      "market_value": 2499.85
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "category": "黄金",
+      "shares": 49,
+      "cost_price": 10.12,
+      "last_price": 10.12,
+      "market_value": 495.88
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-05-28",
+      "nav": 10000.00,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.0,
+      "actions": [
+        "买入 科创50ETF华夏(588000) 1,666股@¥1.80 | 合计¥2,998.80",
+        "买入 绿色电力ETF嘉实(159625) 2,941股@¥0.85 | 合计¥2,499.85",
+        "买入 黄金ETF华安(518880) 49股@¥10.12 | 合计¥495.88（底仓5%）"
+      ]
+    }
+  ]
+}
