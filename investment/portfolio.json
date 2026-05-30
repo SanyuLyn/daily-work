@@ -9,8 +9,8 @@
       "category": "AI/科技",
       "shares": 1666,
       "cost_price": 1.80,
-      "last_price": 1.82,
-      "market_value": 3032.12
+      "last_price": 1.729,
+      "market_value": 2880.51
     },
     {
       "code": "159625",
@@ -18,8 +18,8 @@
       "category": "绿电",
       "shares": 2941,
       "cost_price": 0.85,
-      "last_price": 0.86,
-      "market_value": 2529.26
+      "last_price": 0.869,
+      "market_value": 2555.73
     },
     {
       "code": "518880",
@@ -27,8 +27,8 @@
       "category": "黄金",
       "shares": 49,
       "cost_price": 10.12,
-      "last_price": 10.08,
-      "market_value": 493.92
+      "last_price": 10.13,
+      "market_value": 496.37
     }
   ],
   "history": [
@@ -45,11 +45,22 @@
     },
     {
       "date": "2026-05-29",
-      "nav": 10060.77,
-      "daily_pnl_pct": 0.0061,
-      "cumulative_pnl_pct": 0.0061,
+      "nav": 9938.08,
+      "daily_pnl_pct": -0.0062,
+      "cumulative_pnl_pct": -0.0062,
       "actions": [
-        "仓位不动：创业板四连阳但赚钱效应收窄（<2000股飘红），无明确加仓信号，守仓等下周回调机会"
+        "仓位不动：守仓等换手降温完成（科创50指数实际-5%，与预警吻合）",
+        "⚠️ 价格修正(5/30报告)：原估算价格偏差大，按实际收盘更新（588000:1.729/-5.0%；159625:0.869/+1.04%；518880:10.13/+0.49%）"
+      ]
+    },
+    {
+      "date": "2026-05-30",
+      "nav": 9938.08,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.0062,
+      "actions": [
+        "周末无交易（A股休市）：维持仓位不动，等待周一成交量信号",
+        "DXY跌破99（98.89），黄金半绿灯亮起，金价$4,520距双确认$4,650-4,700仍约3-4%"
       ]
     }
   ]
