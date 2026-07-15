@@ -474,6 +474,17 @@
         "⚠️ 588000/159625 东财push2his日K+push2实时+腾讯qt.gtimg/ifzq 三级接口经WebFetch抓取均返回HTTP403(本次WebFetch再次实测均403,代理__agentproxy/status确认为组织出口策略拦截,非误用curl),自6/29起连续第12个交易日无法取真实收盘价,按四道护栏第2条沿用上次价(588000 ¥2.133/159625 ¥1.202)记账,净值冻结未更新。7/14科创50 -3.42%(一月三度暴跌)后冻结净值明显高估588000真实市值",
         "本期backfill(6-29起解冻回填)仍无法执行:取价通道(WebFetch+curl)均被出口策略拦截,backfill_20260709_done未置位。需将push2his.eastmoney.com/qt.gtimg.cn加入出口白名单或提供可访问替代行情源,恢复后一次性校准净值并补做回填"
       ]
+    },
+    {
+      "date": "2026-07-15",
+      "nav": 10050.2,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": 0.00502,
+      "actions": [
+        "仓位不动(指数三连阴未放量、半导体结构轮动需放量确认、黄金未站稳$4100,均无明确🟢触发;且取价通道故障无法取真实价落地交易)",
+        "⚠️ 588000/159625 东财push2his日K+push2实时+腾讯qt.gtimg/ifzq/hq.sinajs 多源接口经WebFetch今日再次实测均返回HTTP403(代理__agentproxy/status确认eastmoney/gtimg/sinajs均不在出口白名单;api.money.126.net则DNS ENOTFOUND),自6/29起连续第13个交易日无法取真实收盘价,按四道护栏第2条沿用上次价(588000 ¥2.133/159625 ¥1.202)记账,净值冻结在¥10,050.20未更新",
+        "本期backfill(6-29起解冻回填)仍无法执行:所有可用行情源(东财/腾讯/新浪/网易 via WebFetch)均被出口策略拦截,backfill_20260709_done未置位。需将push2his.eastmoney.com/qt.gtimg.cn/hq.sinajs.cn任一加入出口白名单或提供可访问替代行情源,恢复后一次性校准净值并补做回填"
+      ]
     }
   ]
 }
