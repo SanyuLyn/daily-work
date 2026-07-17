@@ -1,0 +1,21 @@
+{
+  "prices": {
+    "159625": {
+      "close": 1.194,
+      "date": "2026-07-17",
+      "source": "eastmoney"
+    },
+    "518880": {
+      "close": 8.311,
+      "date": "2026-07-17",
+      "source": "eastmoney"
+    },
+    "588000": {
+      "close": 1.807,
+      "date": "2026-07-17",
+      "source": "eastmoney"
+    }
+  },
+  "trading_date": "2026-07-17",
+  "updated_at": "2026-07-17 15:23:00 +0800"
+}
