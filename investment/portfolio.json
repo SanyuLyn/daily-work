@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-17 WebFetch 全通道 HTTP403 故障，沿用 7/16 真实收盘价（证据见 actions），仓位不动",
+  "data_source": "2026-07-17 prices.json 提供真实收盘价（源 eastmoney，trading_date=2026-07-17），数据通道恢复，按真实收盘价 mark-to-market，仓位不动",
   "positions": [
     {
       "code": "588000",
@@ -10,8 +10,8 @@
       "category": "AI/科技",
       "shares": 1886,
       "cost_price": 1.9079,
-      "last_price": 1.945,
-      "market_value": 3668.27
+      "last_price": 1.807,
+      "market_value": 3408.0
     },
     {
       "code": "159625",
@@ -19,8 +19,8 @@
       "category": "绿电",
       "shares": 1806,
       "cost_price": 1.384,
-      "last_price": 1.172,
-      "market_value": 2116.63
+      "last_price": 1.194,
+      "market_value": 2156.36
     }
   ],
   "history": [
@@ -492,12 +492,12 @@
     },
     {
       "date": "2026-07-17",
-      "nav": 9641.45,
-      "daily_pnl_pct": 0.0,
-      "cumulative_pnl_pct": -0.03585,
+      "nav": 9420.92,
+      "daily_pnl_pct": -0.02287,
+      "cumulative_pnl_pct": -0.05791,
       "actions": [
-        "维持仓位不动（无明确加减仓信号）",
-        "⚠️取价通道全故障：WebFetch 对所有 URL 返回 HTTP 403（Yahoo query1/query2 588000.SS+159625.SZ range=5d及1mo、东财 push2his kline 1.588000/0.159625、东财 push2 实时、腾讯 qt.gtimg sh588000/sz159625、stooq.com、连 example.com 亦 403；代理 recentRelayFailures=[] 证明为 WebFetch 出口整体故障非单站封 IP）。按铁律3沿用上一交易日真实收盘价：588000 ¥1.945／159625 ¥1.172（源 2026-07-16 已校准真实收盘价）"
+        "维持仓位不动（科创50 -5.2%、半导体续杀、杠杆盘平仓割肉，无放量企稳🟢信号）",
+        "588000 ¥1.807(2026-07-17,eastmoney)／159625 ¥1.194(2026-07-17,eastmoney)，源 prices.json（数据通道恢复，首次以当日真实收盘价 mark-to-market，纠正原 403 冻结记录）"
       ]
     }
   ],
