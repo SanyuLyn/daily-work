@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-17 回填校准：6/29~7/16 原403冻结净值已按真实收盘价(东财kline/Yahoo双源核实)重算解冻",
+  "data_source": "2026-07-17 WebFetch 全通道 HTTP403 故障，沿用 7/16 真实收盘价（证据见 actions），仓位不动",
   "positions": [
     {
       "code": "588000",
@@ -488,6 +488,16 @@
       "actions": [
         "仓位不动",
         "✅已按真实收盘价校准：588000 ¥1.945／159625 ¥1.172（源 东财kline/Yahoo，2026-07-17 回填修正原403冻结记录）"
+      ]
+    },
+    {
+      "date": "2026-07-17",
+      "nav": 9641.45,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.03585,
+      "actions": [
+        "维持仓位不动（无明确加减仓信号）",
+        "⚠️取价通道全故障：WebFetch 对所有 URL 返回 HTTP 403（Yahoo query1/query2 588000.SS+159625.SZ range=5d及1mo、东财 push2his kline 1.588000/0.159625、东财 push2 实时、腾讯 qt.gtimg sh588000/sz159625、stooq.com、连 example.com 亦 403；代理 recentRelayFailures=[] 证明为 WebFetch 出口整体故障非单站封 IP）。按铁律3沿用上一交易日真实收盘价：588000 ¥1.945／159625 ¥1.172（源 2026-07-16 已校准真实收盘价）"
       ]
     }
   ],
