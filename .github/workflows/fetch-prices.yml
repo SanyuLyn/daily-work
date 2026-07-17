@@ -1,0 +1,35 @@
+  name: fetch-prices
+
+  on:
+    schedule:
+      - cron: '30 7 * * 1-5'   # 15:30 Asia/Shanghai，工作日 A股收盘后
+    workflow_dispatch: {}
+
+  permissions:
+    contents: write
+
+  concurrency:
+    group: fetch-prices
+    cancel-in-progress: false
+
+  jobs:
+    fetch:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - uses: actions/setup-python@v5
+          with:
+            python-version: '3.12'
+        - name: 抓取 ETF 收盘价
+          run: python investment/fetch_prices.py
+        - name: 提交 prices.json（有变化才提交）
+          run: |
+            git config user.name "Prices Bot"
+            git config user.email "prices-bot@daily-work.com"
+            git add investment/prices.json
+            if git diff --cached --quiet; then
+              echo "价格无变化，跳过提交"
+            else
+              git commit -m "prices: $(TZ=Asia/Shanghai date +%Y-%m-%d) ETF收盘价"
+              git push
+            fi
