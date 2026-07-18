@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-17 prices.json 提供真实收盘价（源 eastmoney，trading_date=2026-07-17），数据通道恢复，按真实收盘价 mark-to-market，仓位不动",
+  "data_source": "2026-07-18 周六非交易日：prices.json trading_date=2026-07-17 早于今日，沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动",
   "positions": [
     {
       "code": "588000",
@@ -498,6 +498,16 @@
       "actions": [
         "维持仓位不动（科创50 -5.2%、半导体续杀、杠杆盘平仓割肉，无放量企稳🟢信号）",
         "588000 ¥1.807(2026-07-17,eastmoney)／159625 ¥1.194(2026-07-17,eastmoney)，源 prices.json（数据通道恢复，首次以当日真实收盘价 mark-to-market，纠正原 403 冻结记录）"
+      ]
+    },
+    {
+      "date": "2026-07-18",
+      "nav": 9420.92,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.05791,
+      "actions": [
+        "周六非交易日(休市)，维持仓位不动",
+        "588000 ¥1.807／159625 ¥1.194，非交易日沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
       ]
     }
   ],
