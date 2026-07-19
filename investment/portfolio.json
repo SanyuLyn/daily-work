@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-18 周六非交易日：prices.json trading_date=2026-07-17 早于今日，沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动",
+  "data_source": "2026-07-19 周日非交易日：prices.json trading_date=2026-07-17 早于今日，沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动",
   "positions": [
     {
       "code": "588000",
@@ -507,6 +507,16 @@
       "cumulative_pnl_pct": -0.05791,
       "actions": [
         "周六非交易日(休市)，维持仓位不动",
+        "588000 ¥1.807／159625 ¥1.194，非交易日沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
+      ]
+    },
+    {
+      "date": "2026-07-19",
+      "nav": 9420.92,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.05791,
+      "actions": [
+        "周日非交易日(休市)，维持仓位不动",
         "588000 ¥1.807／159625 ¥1.194，非交易日沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
       ]
     }
