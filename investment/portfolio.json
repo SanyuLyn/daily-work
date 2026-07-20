@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-19 周日非交易日：prices.json trading_date=2026-07-17 早于今日，沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动",
+  "data_source": "2026-07-20 周一交易日但 prices.json trading_date=2026-07-17 早于今日（Actions 未更新今日真实价），按铁律沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动；今日 A 股尾盘深 V 翻红的真实涨幅待明日补价反映",
   "positions": [
     {
       "code": "588000",
@@ -518,6 +518,16 @@
       "actions": [
         "周日非交易日(休市)，维持仓位不动",
         "588000 ¥1.807／159625 ¥1.194，非交易日沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
+      ]
+    },
+    {
+      "date": "2026-07-20",
+      "nav": 9420.92,
+      "daily_pnl_pct": 0.0,
+      "cumulative_pnl_pct": -0.05791,
+      "actions": [
+        "维持仓位不动（7/20 交易日，科技尾盘深V翻红、电力领涨为积极边际，但科创50仅+0.19%、放量与两融止跌未确认，无🟢加仓信号）",
+        "588000 ¥1.807／159625 ¥1.194，行情未更新沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
       ]
     }
   ],
