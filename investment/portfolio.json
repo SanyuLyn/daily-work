@@ -2,7 +2,7 @@
   "start_date": "2026-05-28",
   "initial_capital": 10000,
   "cash": 3856.55,
-  "data_source": "2026-07-20 周一交易日但 prices.json trading_date=2026-07-17 早于今日（Actions 未更新今日真实价），按铁律沿用 2026-07-17 收盘价（588000 ¥1.807／159625 ¥1.194，源 eastmoney）mark-to-market，仓位不动；今日 A 股尾盘深 V 翻红的真实涨幅待明日补价反映",
+  "data_source": "2026-07-21：prices.json trading_date=2026-07-20（早于今日，Actions 未更新今日真实价），按铁律沿用 2026-07-20 收盘价 mark-to-market（588000 ¥1.815／159625 ¥1.239，源 eastmoney）；7/21 A股科创50 +10.73% 大涨待明日补价反映",
   "positions": [
     {
       "code": "588000",
@@ -10,8 +10,8 @@
       "category": "AI/科技",
       "shares": 1886,
       "cost_price": 1.9079,
-      "last_price": 1.807,
-      "market_value": 3408.0
+      "last_price": 1.815,
+      "market_value": 3423.09
     },
     {
       "code": "159625",
@@ -19,8 +19,8 @@
       "category": "绿电",
       "shares": 1806,
       "cost_price": 1.384,
-      "last_price": 1.194,
-      "market_value": 2156.36
+      "last_price": 1.239,
+      "market_value": 2237.63
     }
   ],
   "history": [
@@ -528,6 +528,16 @@
       "actions": [
         "维持仓位不动（7/20 交易日，科技尾盘深V翻红、电力领涨为积极边际，但科创50仅+0.19%、放量与两融止跌未确认，无🟢加仓信号）",
         "588000 ¥1.807／159625 ¥1.194，行情未更新沿用2026-07-17收盘价(prices.json trading_date=2026-07-17 早于今日 DATE，源 eastmoney)，源 prices.json"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "nav": 9517.27,
+      "daily_pnl_pct": 0.01023,
+      "cumulative_pnl_pct": -0.04827,
+      "actions": [
+        "维持仓位不动（7/21 科创50 +10.73% 年内最大单日涨幅、放量续攻，科技右侧信号已确认；但 prices.json 仅到 7/20，只能按 7/20 真实收盘价 mark-to-market——若按 7/20 价买入等于抢跑已知的 7/21 大涨，违纪，故本日不动，待 7/21 真实价入账后于回踩时决策加仓）",
+        "588000 ¥1.815(2026-07-20,eastmoney)／159625 ¥1.239(2026-07-20,eastmoney)，源 prices.json（trading_date=2026-07-20 早于今日 DATE，行情未更新沿用 7/20 收盘价；较昨日沿用的 7/17 价上移，本日净值上升即为补入 7/17→7/20 真实涨幅）"
       ]
     }
   ],
