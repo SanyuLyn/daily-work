@@ -1,21 +1,21 @@
 {
   "prices": {
     "159625": {
-      "close": 1.21,
-      "date": "2026-09-02",
-      "source": "eastmoney"
+      "close": 1.209,
+      "date": "2026-09-03",
+      "source": "tencent"
     },
     "518880": {
-      "close": 8.902,
-      "date": "2026-09-02",
-      "source": "eastmoney"
+      "close": 9.105,
+      "date": "2026-09-03",
+      "source": "tencent"
     },
     "588000": {
-      "close": 1.708,
-      "date": "2026-09-02",
+      "close": 1.703,
+      "date": "2026-09-03",
       "source": "tencent"
     }
   },
-  "trading_date": "2026-09-02",
-  "updated_at": "2026-09-02 20:10:11 +0800"
+  "trading_date": "2026-09-03",
+  "updated_at": "2026-09-03 20:09:35 +0800"
 }
